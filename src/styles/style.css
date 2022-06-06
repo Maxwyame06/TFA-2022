@@ -753,6 +753,7 @@
     transform: translateX(-50%) perspective(300px) rotateX(28deg);
     transform-origin: 50% 100%;
     color:#FCA4A4;
+    line-height: 100px;
     }
   .two-lines--ui::before,
   .two-lines--ui::after {
