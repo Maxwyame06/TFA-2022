@@ -1,7 +1,8 @@
 "use strict"
 
 
-import { gsap } from "gsap";
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
 let tl = gsap.timeline({
     scrollTrigger:{
       trigger: '.mockup-landing',
