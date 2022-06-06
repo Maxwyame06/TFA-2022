@@ -7,3 +7,5 @@
       .querySelector(".custom_menu-btn")
       .classList.toggle("menu_btn-style");
   }
+
+// CODE ANIMATION GSAP EN BAS DE L'INDEX.HTML ET CREDITS.HTML
