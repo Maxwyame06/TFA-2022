@@ -1,5 +1,4 @@
 "use strict"
-import gsap from 'gsap';
 
 //Burger menu
  function openNav() {
