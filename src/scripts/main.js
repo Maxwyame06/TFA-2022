@@ -1,10 +1,7 @@
 "use strict"
 
 
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-gsap.registerPlugin(ScrollTrigger);
-<script src="gsap-public/minified/gsap.min.js"></script>
+ src="gsap-public/minified/gsap.min.js"
 
       let tl = gsap.timeline({
         scrollTrigger:{
