@@ -724,6 +724,9 @@
     height: 40px;
     font-size: 19px;
   }
+  .credits{
+    overflow: hidden;
+  }
   .text-1{
     color: #FCA4A4;
     font-size: 50px;
