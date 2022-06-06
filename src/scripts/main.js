@@ -1,7 +1,8 @@
 "use strict"
 
 
- src="gsap-public/minified/gsap.min.js"
+
+
 
       let tl = gsap.timeline({
         scrollTrigger:{
