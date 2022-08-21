@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helpers - Crédits</title>
-    <link href="css/style.css" rel="stylesheet" />
-    <script src="js/main.js" defer></script>
+    <link href="styles/style.css" rel="stylesheet" />
+    
   
     <!--meta google-->
     <meta name="title" content="Wyame Maxence | Helpers">
@@ -35,76 +35,31 @@
     
 </head>
 <body>
-    <header class="header_section">
-        <div class="container-header">
-            <nav class="navbar custom_nav-container">
-                <a class="navbar-brand" href="index.html">
-                    <span>
-                        Helpers
-                    </span>
-                </a>
-                <div>
-                    <div class="custom_menu-btn">
-                        <button onclick="openNav()">
-                            <span class="s-1"> </span>
-                            <span class="s-2"> </span>
-                            <span class="s-3"> </span>
-                        </button>
-                    </div>
-                    <div id="myNav" class="overlay">
-                        <div class="overlay-content">
-                            <a class="two-lines overlay-content--1 " href="index.html">Landing page</a>
-                            <a class="two-lines overlay-content--2" href="case-study.html">Case-Study</a>
-                            <a class="two-lines overlay-content--3 actif" href="ui-kit.html">Ui-kit</a>
-                            <a class="two-lines overlay-content--4" href="credits.html">Crédits</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+    
     <div class="credits">
         <h1 class="text-1">Crédits</h1>
         <img class="logo-cred" src="assets/images/mvp.png" alt="Image mvp">
-        <p class="text-2">Je tenais à remercier toutes les personnes qui m’ont aidé de loin ou de près pour mon TFA. Iconmonstr pour les icones, Uppbeat.io pour la musique libre de droit utilisés dans la vidéo. Merci également à toutes les personnes qui m’ont donné des conseils concernant mon travail. Merci également aux professeurs de leurs temps pendant les suivis.</p>
+        <p class="text-2">Je tenais à remercier toutes les personnes qui m’ont aidé de loin ou de près pour mon TFA. Iconmonstr pour les icônes, Upbeat Io pour la musique libre de droits utilisés dans la vidéo. Merci également à toutes les personnes qui m’ont donné des conseils concernant mon travail. Merci également aux professeurs de leur temps pendant les suivis.</p>
     
     </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
-    <script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+  <script src="scripts/credits.js" defer></script>
 
-    const tl = gsap.timeline();
+    <footer class="section section__footer">
+        <ul class="footer__list">
+            <li class="footer__item"><a href="index.html">Landing page</a></li>
+            <li class="footer__item"><a href="case-study.html">Case Study</a></li>
+            <li class="footer__item"><a href="ui-kit.html">UI-Kit </a></li>
+            <li class="footer__item"><a href="credits.html"><span class="actif">Crédits</span></a></li>
+            <li class="footer__item"><a href="portfolio.html">Portfolio</a></li>
+        </ul>
 
-    tl.from('.text-1', {
-        opacity: 0,
-        duration: 2,
-    })
-    .to('.text-1',{ 
-        opacity: 0,
-        duration: 2,
-    }, "+=2")
+        
 
-    .set('.logo-cred',{
-        opacity: 1,
-    }, "+=1")
-
-    .to('.logo-cred',{
-        scale: 0,
-        duration: 8,
-    })
-    .to('.logo-cred',{
-        opacity:0,
-        duration: 4,
-    }, "-=6")
-
-
-    .from('.text-2',{
-        top:'100%',
-        duration: 20,
-    }, "-+6")
-
-    </script>
+        
+    </footer>
 </body>
 </html>
 
